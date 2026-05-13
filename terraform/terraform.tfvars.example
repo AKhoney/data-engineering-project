@@ -1,0 +1,17 @@
+# Terraform Variables Example
+# Copy this file to terraform.tfvars and update with your actual values
+# DO NOT commit terraform.tfvars to version control
+
+subscription_id = "your-subscription-id-here"
+resource_group_name = "rg-weather-data-engineering"
+location = "East US"
+environment = "development"
+
+storage_account_name = "stweatherdataeng"
+adls_container_name = "weather-data-lake"
+keyvault_name = "kvweatherdataeng"
+sql_server_name = "sqlweatherdataeng"
+sql_database_name = "weather_db"
+adf_name = "adfweatherdataeng"
+databricks_workspace_name = "dbxweatherdataeng"
+spark_cluster_name = "cluster-weather-processing"
